@@ -28,7 +28,7 @@ start.addEventListener('click', function () {
     function startInterval() {
         startTimer = setInterval(function () {
             CountTimer();
-        }, 1000);
+        }, 600);
     }
     startInterval();
 })

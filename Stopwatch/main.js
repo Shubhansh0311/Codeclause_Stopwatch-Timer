@@ -43,7 +43,7 @@ function Timer() {
         if (min < 10) { min = "0" + min; }
         if (hr < 10) { hr = "0" + hr; }
         timers.innerHTML = hr + ":" + min + ":" + sec;
-        setTimeout("Timer()", 1000);
+        setTimeout("Timer()", 200);
     }
 }
 function Reset_time() {
